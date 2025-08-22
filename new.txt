@@ -717,140 +717,369 @@ proxies:
     port: 6699
     username: 3xp
     password: 3xp
- - name: "Escape 126                           -FTP[ ]"
-   type: socks5
-   server: 103.108.60.35
-   port: 1080
-   username: test
-   password: test
- - name: "Escape 127                           -FTP[ ]"
-   type: socks5
-   server: 45.64.132.21
-   port: 1080
-   username: test
-   password: test
- - name: "Escape 128 -FTP[ ]"
-  type: socks5
-  server: 103.38.55.55
-  port: 1080
-  username: test
-  password: test
-
-- name: "Escape 129 -FTP[ ]"
-  type: socks5
-  server: 103.84.252.101
-  port: 1080
-  username: test
-  password: test
-
-- name: "Escape 130 -FTP[ ]"
-  type: socks5
-  server: 103.166.253.94
-  port: 1080
-  username: test
-  password: test
-
-- name: "Escape 131 -FTP[ ]"
-  type: socks5
-  server: 103.111.125.73
-  port: 1080
-  username: test
-  password: test
-
-- name: "Escape 132 -FTP[ ]"
-  type: socks5
-  server: 103.186.238.9
-  port: 1080
-  username: test
-  password: test
-
-- name: "Escape 133 -FTP[ ]"
-  type: socks5
-  server: 103.108.60.35
-  port: 1080
-  username: test
-  password: test
-
-- name: "Escape 134 -FTP[ ]"
-  type: socks5
-  server: 123.253.96.249
-  port: 1080
-  username: test
-  password: test
-
-- name: "Escape 135 -FTP[ ]"
-  type: socks5
-  server: 114.130.183.10
-  port: 1080
-  username: test
-  password: test
-
-- name: "Escape 136 -FTP[ ]"
-  type: socks5
-  server: 103.195.140.12
-  port: 1080
-  username: test
-  password: test
-
-- name: "Escape 137 -FTP[ ]"
-  type: socks5
-  server: 118.179.158.241
-  port: 1080
-  username: test
-  password: test
-
-- name: "Escape 138 -FTP[ ]"
-  type: socks5
-  server: 43.243.205.58
-  port: 1080
-  username: test
-  password: test
-
-- name: "Escape 139 -FTP[ ]"
-  type: socks5
-  server: 180.148.214.52
-  port: 1080
-  username: test
-  password: test
-
-- name: "Escape 140 -FTP[ ]"
-  type: socks5
-  server: 103.186.238.8
-  port: 1080
-  username: test
-  password: test
-
-- name: "Escape 141 -FTP[ ]"
-  type: socks5
-  server: 43.229.210.8
-  port: 1080
-  username: test
-  password: test
-
-- name: "Escape 142 -FTP[ ]"
-  type: socks5
-  server: 118.179.205.202
-  port: 1080
-  username: test
-  password: test
-
-- name: "Escape 143 -FTP[ ]"
-  type: socks5
-  server: 182.48.84.54
-  port: 1080
-  username: test
-  password: test
-
-- name: "Escape 144 -FTP[ ]"
-  type: socks5
-  server: 103.123.169.243
-  port: 1080
-  username: test
-  password: test
-
-- name: "Escape 145 -FTP[ ]"
-  type: socks5
-  server: 203.76.148.154
-  port: 1080
-  username: test
-  password: test
+  - name: "Escape 126ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.108.60.35
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 127ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 45.64.132.21
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 128ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.38.55.55
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 129ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.84.252.101
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 130ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.166.253.94
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 131ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.111.125.73
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 132ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.186.238.9
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 133ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.108.60.35
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 134ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 123.253.96.249
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 135ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 114.130.183.10
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 136ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.195.140.12
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 137ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 118.179.158.241
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 138ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 43.243.205.58
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 139ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 180.148.214.52
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 140ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.186.238.8
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 141ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 43.229.210.8
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 142ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 118.179.205.202
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 143ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 182.48.84.54
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 144ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.123.169.243
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 145ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 203.76.148.154
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 146ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.126.23.222
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 147ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.111.225.73
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 148ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 27.147.141.162
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 149ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.122.252.94
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 150ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.122.74.26
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 151ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 203.190.8.8
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 152ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.254.167.18
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 153ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 115.127.142.157
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 154ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 123.49.39.120
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 155ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 203.76.110.118
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 156ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.129.200.173
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 157ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.140.25.10
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 158ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.122.254.33
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 159ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.84.252.97
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 160ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.214.201.134
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 161ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.199.155.186
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 162ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 203.190.9.73
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 163ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.166.253.92
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 164ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 123.253.96.148
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 165ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 144.48.119.194
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 166ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 202.4.105.122
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 167ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.245.96.21
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 168ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.81.104.177
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 169ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 115.127.135.186
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 170ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.91.231.244
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 171ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 220.247.165.129
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 172ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 118.179.26.142
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 173ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.126.23.240
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 174ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.126.23.241
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 175ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.126.23.242
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 176ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.126.23.243
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 177ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.126.23.244
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 178ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.126.23.245
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 179ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.126.23.246
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 180ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.126.23.247
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 181ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.126.23.248
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 182ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.126.23.249
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 183ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.126.23.250
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 184ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.126.23.251
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 185ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.126.23.252
+    port: 1088
+    username: "test"
+    password: "test"
+  - name: "Escape 186ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[Not Checked]"
+    type: socks5
+    server: 103.126.23.253
+    port: 1088
+    username: "test"
+    password: "test"
