@@ -1,0 +1,134 @@
+proxy-providers:
+  Butterflys:
+    type: http
+    url: https://raw.githubusercontent.com/walter21-65/netline/refs/heads/main/http.txt
+    interval: 60
+    path: ./providers/Butterflys.yaml
+
+proxy-groups:
+  - name: "Butterfly's"
+    type: select
+    proxies:
+      - "All Butterflys"
+      - "CircleFTP"
+      - "Nagordola"
+      - "SamFTP"
+      - "ShowTime"
+      - "FtpBD"
+      - "IccFTP"
+      - "TimePassBD"
+      - "Discovery"
+      - "CloudTV"
+      - "EBox"
+      - "CtgHall"
+
+  - name: "All Butterflys"
+    type: load-balance
+    strategy: round-robin
+    url: http://1.1.1.1
+    interval: 3
+    use:
+      - Butterflys
+
+  - name: CircleFTP
+    type: load-balance
+    strategy: round-robin
+    url: http://1.1.1.1
+    interval: 3
+    filter: "CircleFTP"
+    use:
+      - Butterflys
+
+  - name: Nagordola
+    type: load-balance
+    strategy: round-robin
+    url: http://1.1.1.1
+    interval: 3
+    filter: "Nagordola"
+    use:
+      - Butterflys
+
+  - name: SamFTP
+    type: load-balance
+    strategy: round-robin
+    url: http://1.1.1.1
+    interval: 3
+    filter: "SamFTP"
+    use:
+      - Butterflys
+
+  - name: ShowTime
+    type: load-balance
+    strategy: round-robin
+    url: http://1.1.1.1
+    interval: 3
+    filter: "ShowTime"
+    use:
+      - Butterflys
+
+  - name: FtpBD
+    type: load-balance
+    strategy: round-robin
+    url: http://1.1.1.1
+    interval: 3
+    filter: "FtpBD"
+    use:
+      - Butterflys
+
+  - name: IccFTP
+    type: load-balance
+    strategy: round-robin
+    url: http://1.1.1.1
+    interval: 3
+    filter: "IccFTP"
+    use:
+      - Butterflys
+
+  - name: TimePassBD
+    type: load-balance
+    strategy: round-robin
+    url: http://1.1.1.1
+    interval: 3
+    filter: "TimePassBD"
+    use:
+      - Butterflys
+
+  - name: Discovery
+    type: load-balance
+    strategy: round-robin
+    url: http://1.1.1.1
+    interval: 3
+    filter: "Discovery"
+    use:
+      - Butterflys
+
+  - name: CloudTV
+    type: load-balance
+    strategy: round-robin
+    url: http://1.1.1.1
+    interval: 3
+    filter: "CloudTV"
+    use:
+      - Butterflys
+
+  - name: EBox
+    type: load-balance
+    strategy: round-robin
+    url: http://1.1.1.1
+    interval: 3
+    filter: "EBox"
+    use:
+      - Butterflys
+
+  - name: CtgHall
+    type: load-balance
+    strategy: round-robin
+    url: http://1.1.1.1
+    interval: 3
+    filter: "CtgHall"
+    use:
+      - Butterflys
+
+rules:
+  - NETWORK,UDP,DIRECT
+  - MATCH,Butterfly's
