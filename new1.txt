@@ -239,7 +239,7 @@ proxies:
     type: http
     server: 202.40.178.218
     port: 17209
-- name: "Escape 82ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[]"
+  - name: "Escape 82ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[]"
     type: socks5
     server: 122.102.35.105
     port: 1080
