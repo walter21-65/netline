@@ -155,10 +155,6 @@ proxies:
     port: 1088
     username: test
     password: test
-  - name: "Escape 75                                 -FTP[SamFTP]"
-    type: http
-    server: 103.40.226.126
-    port: 26100
   - name: "Escape 76                                 -FTP[SamFTP, ShowTime]"
     type: http
     server: 202.40.178.218
